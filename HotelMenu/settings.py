@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'dashboard',
     'menu',
-    'ckeditor',
 ]
 
 MIDDLEWARE = [
@@ -128,11 +127,3 @@ STATICFILES_DIRS = [
 
 MEDIA_URL ='/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'static/uploads')
-
-CKEDITOR_CONFIGS = {
-    'default': {
-        'toolbar': 'full',
-        'height': 500,
-        'width': 1000,
-    },
-}
